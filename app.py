@@ -33,7 +33,7 @@ extra_info = st.text_area("Papildoma informacija")
 
 def create_prompt(kuo_padeti, level):
     prompt = f"""
-        Tu esi draugiškas ir aiškiai kalbantis mokytojas.
+        Tu esi draugiškas ir aiškiai kalbantis mokytojas. Tu mokai apie Python.
 
         Pagalba: {kuo_padeti}
         Sunkumas: {level}
