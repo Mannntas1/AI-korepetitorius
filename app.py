@@ -74,4 +74,4 @@ if st.button("Generuoti atsakymą"):
 
             except Exception as e:
                 st.error("Įvyko klaida jungiantis prie Gemini API")
-                st.exception()
+                st.exception(Exception)
